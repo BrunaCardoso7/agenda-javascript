@@ -31,6 +31,8 @@
     background-color: rgb(34, 30, 48);
     color: aliceblue;
 }
+
+
 .aba{
     background-color: rgb(62, 48, 153);
     color: aliceblue;
@@ -58,4 +60,75 @@
 .color-orange{
     color: orange;
     font-weight: 500;
+}
+/* sessão NOVO */
+.text-novo{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.685);
+}
+.conteiner-form{
+    display: flex;  
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 50px 5px;
+    width:  20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    box-shadow: 1px 1px 10px black;
+}
+.compo-form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}   
+.btn-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.input{
+    height: 25px;
+    border: 1px solid slateblue;
+    border-radius: 5px;
+}
+.label{
+    color: aliceblue;
+}
+.btn-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 5px;
+    background-color: rgb(34, 30, 48);
+    color: slateblue;
+    border: 2px solid slateblue;
+    border-radius: 5px;
+}
+.btn-add:hover{
+    background-color: slateblue;
+    color: aliceblue;
+}
+
+.btn-remove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 5px;
+    background-color: orange;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.btn-remove:hover{
+    background-color: rgb(224, 146, 2);
 }

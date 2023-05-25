@@ -8,7 +8,35 @@
     <title>novo-Agenda</title>
 </head>
 <body>
-    <p>novo-Agenda</p>
-    <script src="index.js"></script>
+    <form action="#">
+        <h1 class="text-novo">Cadastre aqui novos contatos</h1>
+        <div class="conteiner-form">
+            <div class="campo-form">
+                <label for="f-id" class="label">ID</label><br>
+                <input type="text" name="f-id" id="f-id" class="input">
+            </div>
+            <div class="campo-form">
+                <label for="f-nome" class="label">Nome</label><br>
+                <input type="text" name="f-nome" id="f-nome" class="input">
+            </div>
+            <div class="campo-form">
+                <label for="f-id" class="label">Numero de telefone</label><br>
+                <input type="number" name="f-tel" id="f-tel" class="input">
+            </div>
+            <div class="campo-form">
+                <label for="f-nasc" class="label">Data de nascimento</label><br>
+                <input type="date" name="f-nasc" id="f-nasc" class="input">
+            </div>
+            <div class="campo-form">
+                <label for="f-email" class="label">E-mail</label><br>
+                <input type="email" name="f-email" id="f-email" class="input">
+            </div>
+            <div class="btn-form">
+                <button class="btn-add">adicionar</button>
+                <button class="btn-remove">cancelar</button>
+            </div>
+        </div>
+    </form>
+    <script src="novo.js"></script>
 </body>
 </html>
