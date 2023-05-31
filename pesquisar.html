@@ -8,7 +8,35 @@
     <title>pesquisar-Agenda</title>
 </head>
 <body>
-    <p>pesquisar-Agenda/p>
+    <div id="pesquisa">
+        <div class="camppesq">
+            <label for="id_pesq">ID</label>
+            <input type="radio" name="f_pesq" value="id" id="id_pesq">
+        </div>
+        <div class="camppesq">
+            <label for="id_pesq">Nome</label>
+            <input type="radio" name="f_pesq" value="id" id="nome_pesq" checked>
+        </div>
+        <div class="camppesq">
+            <label for="id_pesq">Data de nascimento</label>
+            <input type="radio" name="f_pesq" value="id" id="dn_pesq">
+        </div>
+        <div class="camppesq">
+            <label for="id_pesq">E-mail</label>
+            <input type="radio" name="f_pesq" value="id" id="email_pesq">
+        </div>
+        <div class="camppesq">
+            <label for="id_pesq">E-mail</label>
+            <input type="text" name="f_pesq">
+        </div>
+        <div>
+            <button class="btn-pesquisar">Pesquisar</button>
+        </div>
+    </div>
+
+    <div id="resultado">
+
+    </div>
     <!-- <script src="index.js"></script> -->
 </body>
 </html>

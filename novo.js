@@ -24,14 +24,24 @@ btn_add.addEventListener('click', (evt)=>{
     .then(res=>{
         if (res.status ==200){
             console.log('bunda')
+            reset()
         }else{
             for (let i = 0; i<3; i++){
                 alert('FEROOU O SISTEMAAAA PREPARE-SE PARA  THE SHUTDOWN!!!!! UMA AMEAÇA FOI DETECTADA PREPARE PRA O SHUTDOWN')
             }
         }
     })
-
+    
 })
-
+btn_rem.addEventListener('click', (evt)=>{
+    reset()
+})
+function reset(){
+    nome_campo.value = ''
+    email_campo.value = ''
+    tel_campo.value = ''
+    nasc_campo.value = ''
+    nome_campo.focus()
+}
 
 
