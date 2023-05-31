@@ -5,32 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pesqstyle.css">
     <title>pesquisar-Agenda</title>
 </head>
 <body>
     <div id="pesquisa">
-        <div class="camppesq">
-            <label for="id_pesq">ID</label>
-            <input type="radio" name="f_pesq" value="id" id="id_pesq">
+        <div class="disco">
+            <div class="camppesq">
+                <input type="radio" name="f_pesq" value="id" id="id_pesq">
+                <label for="id_pesq">ID</label>
+            </div>
+            <div class="camppesq">
+                <input type="radio" name="f_pesq" value="id" id="nome_pesq" checked>
+                <label for="nome_pesq">Nome</label>
+            </div>
+            <div class="camppesq">
+                <input type="radio" name="f_pesq" value="id" id="dn_pesq">
+                <label for="dn_pesq">Data de nascimento</label>
+            </div>
+            <div class="camppesq">
+                <input type="radio" name="f_pesq" value="id" id="email_pesq">
+                <label for="email_pesq">E-mail</label>
+            </div>
         </div>
-        <div class="camppesq">
-            <label for="id_pesq">Nome</label>
-            <input type="radio" name="f_pesq" value="id" id="nome_pesq" checked>
-        </div>
-        <div class="camppesq">
-            <label for="id_pesq">Data de nascimento</label>
-            <input type="radio" name="f_pesq" value="id" id="dn_pesq">
-        </div>
-        <div class="camppesq">
-            <label for="id_pesq">E-mail</label>
-            <input type="radio" name="f_pesq" value="id" id="email_pesq">
-        </div>
-        <div class="camppesq">
-            <label for="id_pesq">E-mail</label>
-            <input type="text" name="f_pesq">
-        </div>
-        <div>
-            <button class="btn-pesquisar">Pesquisar</button>
+        <div class="psq">
+            <div class="camppesq">
+                <input type="text" name="f_pesq" id="campoPsq" placeholder="O que você está proucurado...">
+            </div>
+            <div>
+                <button class="btn-pesquisar">Pesquisar</button>
+            </div>
         </div>
     </div>
 

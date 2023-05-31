@@ -24,7 +24,7 @@ btn_add.addEventListener('click', (evt)=>{
     .then(res=>{
         if (res.status ==200){
             console.log('bunda')
-            reset()
+            return reset()
         }else{
             for (let i = 0; i<3; i++){
                 alert('FEROOU O SISTEMAAAA PREPARE-SE PARA  THE SHUTDOWN!!!!! UMA AMEAÇA FOI DETECTADA PREPARE PRA O SHUTDOWN')

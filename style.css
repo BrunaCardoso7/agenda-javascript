@@ -75,7 +75,7 @@
     align-items: center;
     background-color: whitesmoke    ;
     padding: 50px 5px;
-    width:  250px;
+    width:  650px;
     border-radius: 10px;
     position: absolute;
     left: 50%;
@@ -99,6 +99,7 @@
     height: 25px;
     border: 1px solid slateblue;
     border-radius: 5px;
+    width: 600px;
 }
 .label{
     color: blue;
