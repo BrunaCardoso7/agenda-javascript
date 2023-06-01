@@ -19,8 +19,10 @@
     height: 40px;
     border: 2px solid rgb(91, 255, 91);
     border-radius: 10px;
+    color: gray;
 
 }
+
 .btn-pesquisar{
     width: 150px;
     height: 30px;
